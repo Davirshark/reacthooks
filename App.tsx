@@ -8,7 +8,7 @@ export default function App() {
   const [email, setEmail] = useState<string>('')
 
   useEffect(() => {
-    document.title = `{senha}`
+    document.title = `${senha}`
   });
 
   const buttonSenha = useMemo(() => {
